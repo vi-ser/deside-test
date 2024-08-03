@@ -1,8 +1,17 @@
-<script setup>
+<script>
+import AppJumbotron from './components/AppJumbotron.vue';
+
+export default {
+  components: {
+    AppJumbotron,
+  }
+
+}
+
 </script>
 
 <template>
-  Hello world!
+  <AppJumbotron></AppJumbotron>
 </template>
 
 <style lang="scss" scoped>
