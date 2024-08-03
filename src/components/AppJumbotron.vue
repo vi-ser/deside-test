@@ -13,7 +13,7 @@ export default {
 <template>
     <div class="jumbo">
         <AppNav></AppNav>
-        <div class="main-section text-center justify-content-center m-auto">
+        <div class="main-section container-fluid text-center justify-content-center m-auto">
             <div class="ctas row d-flex flex-column flex-sm-row justify-content-center gap-4 px-4">
                 <div class="left col-12 col-sm-8 col-md-4 col-lg-3 d-flex flex-column" width="307px" height="auto">
                     <img src="/img/logo-disney-hulu.svg" width="100%" alt="logo disney hulu">
@@ -50,6 +50,7 @@ export default {
     height: 675px;
     background-image: url('/img/jumbotron.jpg');
     background-size: cover;
+    margin-bottom: 180px;
 
     img {
         margin-bottom: 28px;

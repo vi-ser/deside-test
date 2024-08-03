@@ -24,3 +24,10 @@
     transition: 0.3s ease;
   }
 }
+
+@mixin titleText {
+  font-family: Avenir, sans-serif;
+  font-weight: 900;
+  color: $lightColor;
+  font-size: 38px;
+}

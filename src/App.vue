@@ -1,9 +1,11 @@
 <script>
 import AppJumbotron from './components/AppJumbotron.vue';
+import AppWatch from './components/AppWatch.vue';
 
 export default {
   components: {
     AppJumbotron,
+    AppWatch
   }
 
 }
@@ -12,6 +14,7 @@ export default {
 
 <template>
   <AppJumbotron></AppJumbotron>
+  <AppWatch></AppWatch>
 </template>
 
 <style lang="scss" scoped>
