@@ -6,14 +6,16 @@ export default {
 </script>
 
 <template>
-    <div class="container-fluid d-flex flex-column flex-lg-row gap-4 p-5 align-items-center">
+    <div class="container d-flex flex-column flex-lg-row gap-4 p-5 align-items-center">
         <div class="col-12 col-lg-6 mb-5 mb-lg-0">
-            <img src="/img/watch-the-way.png" width="100%" alt="">
+            <img src="/img/watch-the-way.png" width="100%" height="auto" alt="">
         </div>
         <div class="col-12 col-lg-6">
-            <span class="title">
-                Watch the way you want
-            </span>
+            <div class="title-container text-center text-lg-start">
+                <span class="title">
+                    Watch the way you want
+                </span>
+            </div>
             <ul class="d-flex flex-column gap-4 mt-4">
                 <li>
                     Host virtual movie nights with GroupWatch. Pause, rewind, and react with up to six friends. To
@@ -43,7 +45,10 @@ export default {
 @use "../styles/mixins" as *;
 
 
-.container-fluid {
+.container {
+
+    margin-bottom: 160px;
+
     .title {
         @include titleText;
     }
