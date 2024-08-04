@@ -2,6 +2,7 @@
 import AppJumbotron from './components/AppJumbotron.vue';
 import AppWatch from './components/AppWatch.vue';
 import AppBundle from './components/AppBundle.vue';
+import AppDevices from './components/AppDevices.vue';
 import AppFaq from './components/AppFaq.vue';
 import AppFooter from './components/AppFooter.vue';
 
@@ -11,6 +12,7 @@ export default {
     AppJumbotron,
     AppWatch,
     AppBundle,
+    AppDevices,
     AppFaq,
     AppFooter,
   }
@@ -23,6 +25,7 @@ export default {
   <AppJumbotron></AppJumbotron>
   <AppWatch></AppWatch>
   <AppBundle></AppBundle>
+  <AppDevices></AppDevices>
   <AppFaq></AppFaq>
   <AppFooter></AppFooter>
 </template>
