@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Duo Basic",
+    "description": [
+      "Thousands of shows, movies, and Originals on Disney+ and Hulu"
+    ],
+    "category": "Disney Bundle",
+    "price": 9.99,
+    "ads": true,
+    "all_logos": false
+  },
+  {
+    "name": "Trio Basic",
+    "description": [
+      "Thousands of shows, movies, and Originals on Disney+ and Hulu",
+      "Live sports and Originals on ESPN+"
+    ],
+    "category": "Disney Bundle",
+    "price": 12.99,
+    "ads": true,
+    "all_logos": true
+  },
+  {
+    "name": "Trio Premium",
+    "description": [
+      "Thousands of shows, movies, and Originals on Disney+ and Hulu",
+      "Live sports and Originals on ESPN+",
+      "Downloads to watch on-the-go"
+    ],
+    "category": "Disney Bundle",
+    "price": 19.99,
+    "ads": false,
+    "all_logos": true
+  },
+  {
+    "name": "Disney+ Basic",
+    "description": ["Thousands of shows, movies, and Originals on Disney+"],
+    "category": "Disney+",
+    "price": 7.99,
+    "ads": true,
+    "all_logos": false
+  },
+  {
+    "name": "Disney+ Standard",
+    "description": [
+      "Thousands of shows, movies, and Originals on Disney+",
+      "No ads experience"
+    ],
+    "category": "Disney+",
+    "price": 10.99,
+    "ads": false,
+    "all_logos": false
+  },
+  {
+    "name": "Disney+ Premium",
+    "description": [
+      "Thousands of shows, movies, and Originals on Disney+",
+      "No ads experience",
+      "Downloads to watch on-the-go",
+      "4K Ultra HD and HDR"
+    ],
+    "category": "Disney+",
+    "price": 13.99,
+    "ads": false,
+    "all_logos": false
+  }
+]

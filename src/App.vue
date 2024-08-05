@@ -4,6 +4,7 @@ import { API_KEY } from './config';
 import axios from 'axios';
 import AppJumbotron from './components/AppJumbotron.vue';
 import AppMovies from './components/AppMovies.vue';
+import AppPlan from './components/AppPlan.vue';
 import AppWatch from './components/AppWatch.vue';
 import AppBundle from './components/AppBundle.vue';
 import AppDevices from './components/AppDevices.vue';
@@ -15,6 +16,7 @@ export default {
   components: {
     AppJumbotron,
     AppMovies,
+    AppPlan,
     AppWatch,
     AppBundle,
     AppDevices,
@@ -54,6 +56,7 @@ export default {
 <template>
   <AppJumbotron></AppJumbotron>
   <AppMovies></AppMovies>
+  <AppPlan></AppPlan>
   <AppWatch></AppWatch>
   <AppBundle></AppBundle>
   <AppDevices></AppDevices>
