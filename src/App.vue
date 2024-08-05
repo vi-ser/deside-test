@@ -1,5 +1,6 @@
 <script>
 import { store } from './store';
+import { API_KEY } from './config';
 import axios from 'axios';
 import AppJumbotron from './components/AppJumbotron.vue';
 import AppMovies from './components/AppMovies.vue';
@@ -30,17 +31,17 @@ export default {
   created() {
     // API from themoviedb
     // trending movies
-    axios.get('https://api.themoviedb.org/3/movie/popular?api_key=9a5bf9d0d0e38756373c9b8e6d6b6c10').then(res => {
+    axios.get('https://api.themoviedb.org/3/movie/popular?api_key=' + API_KEY).then(res => {
       this.store.trendingMovies = res.data.results;
     });
 
     // new movies
-    axios.get('https://api.themoviedb.org/3/movie/now_playing?api_key=9a5bf9d0d0e38756373c9b8e6d6b6c10').then(res => {
+    axios.get('https://api.themoviedb.org/3/movie/now_playing?api_key=' + API_KEY).then(res => {
       this.store.newMovies = res.data.results;
     });
 
     // coming soon movies
-    axios.get('https://api.themoviedb.org/3/movie/upcoming?api_key=9a5bf9d0d0e38756373c9b8e6d6b6c10').then(res => {
+    axios.get('https://api.themoviedb.org/3/movie/upcoming?api_key=' + API_KEY).then(res => {
       this.store.comingMovies = res.data.results;
     });
   },
