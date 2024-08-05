@@ -1,5 +1,8 @@
 import { reactive } from "vue";
 
 export const store = reactive({
-  questions: [],
+  trendingMovies: [],
+  newMovies: [],
+  comingMovies: [],
+  selectedCategory: "trending",
 });
