@@ -58,7 +58,7 @@ export default {
     border: 1px solid $lightGrey;
     border-radius: 0;
     padding: 40px;
-    height: 100%;
+    height: 611px;
 
     img {
         height: 40px;

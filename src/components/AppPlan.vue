@@ -51,7 +51,7 @@ export default {
                     @click="selectPlan('Disney+')">Disney+</button>
             </div>
         </div>
-        <ul class="list-unstyled d-flex justify-content-center gap-4 mt-4 mb-4">
+        <ul class="list-unstyled d-flex flex-wrap justify-content-center gap-4 mt-4 mb-4">
             <PlanItem v-for="(currentPlan, index) in filteredPlans" :key="index" :plan="currentPlan">
             </PlanItem>
         </ul>

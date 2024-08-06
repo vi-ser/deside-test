@@ -78,7 +78,7 @@ export default {
             </div>
         </div>
 
-        <!-- movies carousel trick -->
+        <!-- movies carousel animation -->
         <ul class="d-none d-md-flex gap-3 overflow-hidden">
             <div class="movie-slider d-flex flex-row gap-3 list-unstyled">
                 <MovieItem v-for="currentMovie in currentMovies" :movie="currentMovie" :key="currentMovie.id">
@@ -107,7 +107,9 @@ export default {
         color: $lightColor;
         font-family: Avenir, sans-serif;
         font-size: 20px;
+        width: 180px;
         cursor: pointer;
+        text-align: center;
 
         &.selected {
             position: relative;
